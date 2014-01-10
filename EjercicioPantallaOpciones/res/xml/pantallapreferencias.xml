@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory 
+        android:title="Datos Personales" >
+        <EditTextPreference 
+	        android:key="nombre"
+	        android:title="Nombre"
+	        android:summary="Indica tu nombre"
+	        android:dialogTitle="Introduce tu nombre"/>
+	    <ListPreference
+	        android:key="sexo"
+	        android:title="Sexo"
+	        android:summary="Indica tu sexo"
+	        android:entries="@array/nombre"
+	        android:entryValues="@array/valor"
+	        />
+	    <CheckBoxPreference 
+	        android:key="mayorDeEdad"
+	        android:title="Mayor de edad"
+	        android:summary="Indica si eres mayor de edad"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Sonido">
+    	<CheckBoxPreference 
+	        android:key="sonido"
+	        android:title="Sonido"
+	        android:summary="Indica si quieres sonido"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Preferencias Personales">
+		<MultiSelectListPreference
+		    android:key="preferencias"
+	      	android:title="Preferencias Personales"
+	        android:summary="Indica tus preferencias personales"
+	        android:dialogTitle="Selecciona tus preferencias"
+	        android:entries="@array/preferenciasNombre"
+	        android:entryValues="@array/preferenciasValor"/>
+	</PreferenceCategory>
+</PreferenceScreen>

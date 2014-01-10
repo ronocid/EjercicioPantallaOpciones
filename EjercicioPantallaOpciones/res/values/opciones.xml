@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string-array name="nombre">
+	    <item>Hombre</item>
+	    <item>Mujer</item>
+	</string-array>
+	<string-array name="valor">
+	    <item>Hombre</item>
+	    <item>Mujer</item>
+	</string-array>
+	
+	<string-array name="preferenciasNombre">
+	    <item>Deportes</item>
+	    <item>Cine</item>
+	    <item>Informática</item>
+	</string-array>
+	<string-array name="preferenciasValor">
+	    <item>Deportes</item>
+	    <item>Cine</item>
+	    <item>Informática</item>
+	</string-array>
+</resources>

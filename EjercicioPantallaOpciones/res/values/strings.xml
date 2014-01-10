@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EjercicioPantallaOpciones</string>
+    <string name="app_name2">otracosa</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="preferencias">Preferencias de la \n aplicación</string>
+	<string name="consultar">Consultar \n preferencias</string>
+	<string name="textoMain">Preferencias guardadas</string>
+	<string name="nombre">Nombre:</string>
+	<string name="sexo">Sexo:</string>
+	<string name="edad">Mayor de edad:</string>
+	<string name="sonido">Sonido:</string>
+</resources>
